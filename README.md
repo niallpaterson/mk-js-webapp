@@ -1,0 +1,59 @@
+# mk-js-webapp or Make javascript web application
+
+A zsh script that generates javascript web application templates. Initialises a git repository and installs jest (and babel-jest) and eslint using airbnb's guidelines by default. Also writes a settings.yml file which is used to autopopulate github repository labels.
+
+## Installation
+
+To run the script you must have yarn installed. If not, install with homebrew:
+
+>> brew install yarn
+
+To run the script you must modify the script's run permissions. Navigate to the mk-js-webapp directory and exectue:
+
+>> chmod -x ./mk-js-webapp.zsh
+
+The script folder should be placed in the directory that you desire templates to be built into.
+
+If you want to use the github label settings, you must enable the github settings action:
+
+> [https://github.com/apps/settings/installations/new](https://github.com/apps/settings/installations/new)
+
+## Template generation
+
+To generate a template navigate into mk-js-webapp and run:
+
+>> ./mk-js-webapp.zsh
+
+You will be prompted for the name of your application. Input the name, hit enter, and grab a coffee while the scripts run ☕️.
+
+The structure of applications build by the script is:
+
+```
+root
+  |-html
+  | |-index.html
+  |-js
+    |-app.js
+  |-scss
+  | |-_partials
+  | |-styles.scss
+```
+
+The script also creates a directory named buildTests with the following structure:
+
+```
+buildTests
+  |-testJest.js
+  |-testJest.test.js
+  |-testLint.js
+```
+
+The testJest.test.js file tests an innocuous function found in testJest.js. The test is run at the end of installation. If the test passes, jest has properly installed.
+
+The testLint.js file contains a function that does not comply with the installed eslint guidelines. Eslint is run on this file at the end of installation. Esint has properly installed if it throws:
+
+>> 1:29  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
+
+It is reccomended that you manually check eslint is underlinning this error in testLint.js to ensure compliance with your IDE's eslint plugin.
+
+When you have verified the build was succesful you can delete the buildTests directory.
