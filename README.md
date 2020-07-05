@@ -1,6 +1,6 @@
-# mk-js-webapp or Make javascript web application
+# mk-js-webapp
 
-A zsh script that generates javascript web application templates. Initialises a git repository, installs jest with babel-jest, and installs eslint using airbnb's guidelines by default. Also creates a settings.yml file used to autopopulate github repository labels.
+Zsh script for generating javascript web application templates. Initialises a git repository, installs jest with babel-jest, and installs eslint using airbnb's guidelines. Also creates a settings.yml file used to autopopulate github repository labels.
 
 ## Installation
 
