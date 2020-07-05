@@ -1,0 +1,10 @@
+{
+  "name": "mk-js-webapp",
+  "version": "1.0.0",
+  "description": "A ZSH script for generating javascript web applications.",
+  "main": "N/A",
+  "repository": "https://github.com/niallpaterson/mk-js-webapp.git",
+  "author": "NiallJP <59969425+niallpaterson@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false
+}
