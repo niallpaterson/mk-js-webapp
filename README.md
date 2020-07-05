@@ -10,12 +10,6 @@ To run the script you must have yarn installed. If not, install with homebrew:
 brew install yarn
 ```
 
-To run the script you must modify the script's run permissions. Navigate to the mk-js-webapp directory and execute:
-
-```
-chmod -x ./mk-js-webapp.zsh
-```
-
 The script folder should be placed in the directory that you desire templates to be built into.
 
 If you want to use the github label settings, you must enable the github settings action:
