@@ -10,7 +10,7 @@ To run the script you must have yarn installed. If not, install with homebrew:
 brew install yarn
 ```
 
-To run the script you must modify the script's run permissions. Navigate to the mk-js-webapp directory and exectue:
+To run the script you must modify the script's run permissions. Navigate to the mk-js-webapp directory and execute:
 
 ```
 chmod -x ./mk-js-webapp.zsh
