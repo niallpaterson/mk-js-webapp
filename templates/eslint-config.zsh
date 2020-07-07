@@ -12,4 +12,4 @@ echo 'module.exports = {
   },
   rules: {
   },
-};' > eslintrc.js
+};' > .eslintrc.js
