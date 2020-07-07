@@ -49,6 +49,9 @@ touch '.eslintrc.js'
 . ../templates/eslint-config.zsh
 . ../packages/eslint.zsh
 
+. ../templates/commitlint-config.zsh
+. ../packages/commitlint.zsh
+
 mkdir 'buildTests'
 cd 'buildTests'
 touch testJest.js
