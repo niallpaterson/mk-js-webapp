@@ -2,4 +2,6 @@
 
 echo 'const sumNumber = (a, b) => {
   return a + b;
-};' > testLint.js
+};
+
+export default sumNumber;' > testLint.js
