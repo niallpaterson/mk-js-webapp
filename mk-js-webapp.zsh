@@ -60,11 +60,11 @@ touch testJest.test.js
 . ../../templates/test-jest-test.zsh
 touch testLint.js
 . ../../templates/test-lint.zsh
-
+cd ..
 yarn test buildTests/testJest.test.js
 eslint buildTests/testLint.js
 
-cd ../../..
+cd ../..
 pwd
 mv mk-js-webapp/${APPNAME} $(pwd)
 
