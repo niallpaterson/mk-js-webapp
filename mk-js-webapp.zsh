@@ -70,4 +70,12 @@ mv mk-js-webapp/${APPNAME} $(pwd)
 
 echo '👍 Good to go'
 
+read -- 'ANSWER?Open in Visual Studio Code? (Y/n)'
+ANSWER=${ANSWER:-'y'}
+
+if ([[ $ANSWER == 'y' ]]) {
+  cd ${APPNAME}
+  code .
+}
+
 exit
