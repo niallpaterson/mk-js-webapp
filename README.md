@@ -58,4 +58,10 @@ The testLint.js file contains a function that does not comply with the installed
 
 It is reccomended that you manually check eslint is underlinning this error in testLint.js to ensure compliance with your IDE's eslint plugin.
 
+If using visual studio code's plugin, you may be unable to see in editor error underlining. This is likely caused by the installation being performed with yarn. This may be fixed by globally installing eslint *via npm*:
+
+```
+npm install eslint --global
+```
+
 When you have verified the build was succesful you can delete the buildTests directory.
