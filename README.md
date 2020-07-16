@@ -26,7 +26,7 @@ To generate a template navigate into mk-js-webapp and run:
 
 You will be prompted for the name of your application. Input the name, hit enter, and grab a coffee while the scripts run ☕️.
 
-The structure of applications build by the script is:
+The structure of applications built by the script is:
 
 ```
 root
