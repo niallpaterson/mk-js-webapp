@@ -50,7 +50,7 @@ buildTests
 
 The testJest.test.js file tests an innocuous function found in testJest.js. The test is run at the end of installation. If the test passes, jest has properly installed.
 
-The testLint.js file contains a function that does not comply with the installed eslint guidelines. Eslint is run on this file at the end of installation. Esint has properly installed if it throws:
+The testLint.js file contains a function that does not comply with the installed eslint guidelines. Eslint is run on this file at the end of installation. Eslint has properly installed if it throws:
 
 ```
 1:29  error  Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`  arrow-body-style
@@ -64,4 +64,4 @@ If using visual studio code's plugin, you may be unable to see in editor error u
 npm install eslint --global
 ```
 
-When you have verified the build was succesful you can delete the buildTests directory.
+When you have verified the build was succesful, you can delete the buildTests directory.
