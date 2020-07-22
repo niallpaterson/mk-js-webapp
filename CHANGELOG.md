@@ -1,3 +1,12 @@
+#### 1.1.1 (2020-07-22)
+
+##### Bug Fixes
+
+*  incorrect css script import (c32d6519)
+
+##### Code Style Changes
+
+*  remove unnecessary comment enablers (823773ba)
 #### 1.1.0 (2020-07-16)
 
 ##### Chores
