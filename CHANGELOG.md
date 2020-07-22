@@ -1,3 +1,14 @@
+#### 1.0.1 (2020-07-22)
+
+##### Bug Fixes
+
+*  incorrect css script import (c32d6519)
+
+##### Code Style Changes
+
+*  remove unnecessary comment enablers (823773ba)
+* **eslint:**  remove unnecessary period (759f07ba)
+
 #### 1.0.0 (2020-07-05)
 
 ##### Bug Fixes
