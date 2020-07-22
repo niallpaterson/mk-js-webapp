@@ -1,6 +1,5 @@
 #!/usr/bin/env zsh
 
-
 echo '// babel.config.js
 module.exports = {
   presets: [

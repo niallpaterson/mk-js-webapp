@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 echo 'module.exports = {
   env: {
     browser: true,
