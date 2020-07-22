@@ -1,7 +1,5 @@
 #!/usr/bin/env zsh
 
-set -k 
-
 read -- 'APPNAME?Enter name of app: (my-app) '
 APPNAME=${APPNAME:-'my-app'}
 
