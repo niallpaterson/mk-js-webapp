@@ -60,7 +60,7 @@ touch testLint.js
 . ../../templates/test-lint.zsh
 cd ..
 yarn test buildTests/testJest.test.js
-eslint buildTests/testLint.js
+yarn eslint buildTests/testLint.js
 
 cd ../..
 pwd
